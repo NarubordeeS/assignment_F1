@@ -7,6 +7,7 @@ How to execute
 * git clone
 * cd assignment_F1
 * gradle clean run -q
+
 How to run unit-test
 * cd assignment_F1
 * gradle clean test jacoco
