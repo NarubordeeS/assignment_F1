@@ -9,11 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertNotNull;
-import static org.mockito.Matchers.notNull;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
-import static org.junit.Assert.assertTrue;
 /**
  * Created by narubordeesarnsuwan on 4/25/2016 AD.
  */
@@ -26,8 +25,8 @@ public class RaceTrackTest {
 
     @Mock
     Car car3;
-    RaceTrack raceTrack;
 
+    RaceTrack raceTrack;
 
     @Before
     public void setUp() {
