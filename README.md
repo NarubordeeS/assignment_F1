@@ -7,7 +7,7 @@ How to execute
 * git clone
 * cd assignment_F1
 * gradle clean run -q
-* please input number of car and lengt of race track with Integer value
+* please input number of cars (n) and length of race track (metre)
 * result will be printed out !!
 
 How to run unit-test
